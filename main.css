@@ -34,14 +34,15 @@ body{
     "b"
     "c";
     /* border: 8px solid blue; */
-    padding-left: 81%;
+    padding-left: 85%;
     padding-top: 2%;
   }
 
 .info{
     font-size: 13px;
-    font-style: regular;
-    font-family: 'URWClassicoRegular';
+    font-family: classico-urw, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     display:grid;
     width:10%;
     height: 0px;
@@ -60,8 +61,9 @@ body{
 
 .name{
     font-size:14px;
-    font-style: regular;
-    font-family: 'URWCLassicoRegular' !important;
+    font-family: classico-urw, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     display:grid;
     width:202px;
     height:0px;
@@ -77,8 +79,9 @@ body{
 
 .label{
     font-size: 12px;
-    font-style: regular;
-    font-family: 'URWClassicoRegular';
+    font-family: classico-urw, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     display:grid;
     width: 200px;
     height: 0px;
