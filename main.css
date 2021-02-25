@@ -5,7 +5,7 @@ body{
     width:350px;
     height: 612px;
     margin: 0 auto;
-    background-image: url("Assets-copy/icon-name.svg");
+    background-image: url("Assets-copy/icon_name2.svg");
     background-color:#fef9f2;
     margin-bottom: 60px;
     margin-top: 80px;
@@ -103,3 +103,14 @@ body{
         animation: pulse 1s;
     }
    
+    h1 {
+        color: #232626;
+    }
+    
+    h2 {
+        color: #232626
+    }
+    
+    h3 {
+        color: #232626
+    }
