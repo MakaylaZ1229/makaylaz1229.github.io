@@ -1,0 +1,102 @@
+body{
+    background: linear-gradient(#d6b6b5, #b4d0d2) !important
+}
+.front-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-image: url("Assets-copy/icon-name.svg");
+    background-color:#fef9f2;
+    margin-bottom: 60px;
+    margin-top: 80px;
+    box-shadow: 10px 10px 15px 0px #17161694;
+    border-radius: 16px 16px 16px 16px
+}
+.back-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-image: url("Assets-copy/Backcard_Rings\ copy.png");
+    background-color:#fef9f2;
+    margin-bottom: 20%;
+    box-shadow: 10px 10px 15px 0px #17161694;
+    border-radius: 16px 16px 16px 16px;
+}
+.icon-container{
+    display:grid;
+    width:10%;
+    /* margin: 0 auto; */
+    grid-gap:10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+    /* border: 8px solid blue; */
+    padding-left: 81%;
+    padding-top: 2%;
+  }
+
+.info{
+    font-size: 13px;
+    font-style: regular;
+    font-family: 'URWClassicoRegular';
+    display:grid;
+    width:10%;
+    height: 0px;
+    /* margin: 0 auto; */
+    grid-gap: 8px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+    /* border: 8px solid blue; */
+    padding-left: 16%;
+    padding-top: 15%;
+    }
+
+.name{
+    font-size:14px;
+    font-style: regular;
+    font-family: 'URWCLassicoRegular' !important;
+    display:grid;
+    width:202px;
+    height:0px;
+    /* margin: 0 auto; */
+    grid-gap:10px;
+    grid-template-columns: 1fr;  
+    grid-template-rows: 1fr;
+    grid-template-areas: "a";
+    /* border: 8px solid blue; */
+    padding-left:37%;
+    padding-top:90%;
+    }
+
+.label{
+    font-size: 12px;
+    font-style: regular;
+    font-family: 'URWClassicoRegular';
+    display:grid;
+    width: 200px;
+    height: 0px;
+    /* margin: 0 auto; */
+    grid-gap:10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "a b c";
+    /* border: 8px solid blue; */
+    padding-left: 41.5%;
+    padding-top: 13%;
+    }
+
+.icon-container :hover {
+        fill: rgb(88, 139, 146);
+        opacity:100;
+        -webkit-animation: pulse 1s;
+        animation: pulse 1s;
+    }
+   
